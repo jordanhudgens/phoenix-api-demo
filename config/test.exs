@@ -16,3 +16,5 @@ config :phoenix_api_demo, PhoenixApiDemo.Repo,
   database: "phoenix_api_demo_test",
   hostname: "localhost",
   pool: Ecto.Adapters.SQL.Sandbox
+
+config :bcrypt_elixir, :log_rounds, 4
